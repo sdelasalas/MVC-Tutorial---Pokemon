@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/stacy/.dotnet/store/|arch|/|tfm|",
+      "/Users/stacy/.nuget/packages"
+    ]
+  }
+}
