@@ -20521,8 +20521,23 @@
   "RootNamespace": "MvcPokemon",
   "Documents": [
     {
+      "FilePath": "/Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/Views/Pokemon/Details.cshtml",
+      "TargetPath": "Views\\Pokemon\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/Views/HelloWorld/Welcome.cshtml",
       "TargetPath": "Views\\HelloWorld\\Welcome.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/Views/Pokemon/Edit.cshtml",
+      "TargetPath": "Views\\Pokemon\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/Views/Pokemon/Delete.cshtml",
+      "TargetPath": "Views\\Pokemon\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20533,6 +20548,11 @@
     {
       "FilePath": "/Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/Views/Pokemon/Index.cshtml",
+      "TargetPath": "Views\\Pokemon\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20563,6 +20583,11 @@
     {
       "FilePath": "/Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/Views/Pokemon/Create.cshtml",
+      "TargetPath": "Views\\Pokemon\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],
