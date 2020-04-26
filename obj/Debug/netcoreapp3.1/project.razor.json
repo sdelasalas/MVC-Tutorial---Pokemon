@@ -20521,6 +20521,11 @@
   "RootNamespace": "MvcPokemon",
   "Documents": [
     {
+      "FilePath": "/Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/Views/HelloWorld/Welcome.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Welcome.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
