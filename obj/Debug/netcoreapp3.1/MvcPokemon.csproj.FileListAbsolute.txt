@@ -34,3 +34,4 @@
 /Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/obj/Debug/netcoreapp3.1/MvcPokemon.pdb
 /Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/obj/Debug/netcoreapp3.1/MvcPokemon.genruntimeconfig.cache
 /Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/obj/Debug/netcoreapp3.1/MvcPokemon.csproj.CopyComplete
+/Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/obj/Debug/netcoreapp3.1/Razor/Views/HelloWorld/Index.cshtml.g.cs
