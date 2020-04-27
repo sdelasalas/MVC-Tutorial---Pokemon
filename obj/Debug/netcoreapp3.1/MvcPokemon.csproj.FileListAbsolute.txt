@@ -168,3 +168,8 @@
 /Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/obj/Debug/netcoreapp3.1/MvcPokemon.MvcApplicationPartsAssemblyInfo.cs
+/Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/obj/Debug/netcoreapp3.1/Razor/Views/Pokemon/Create.cshtml.g.cs
+/Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/obj/Debug/netcoreapp3.1/Razor/Views/Pokemon/Delete.cshtml.g.cs
+/Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/obj/Debug/netcoreapp3.1/Razor/Views/Pokemon/Details.cshtml.g.cs
+/Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/obj/Debug/netcoreapp3.1/Razor/Views/Pokemon/Edit.cshtml.g.cs
+/Users/stacy/Documents/Academy_Pgh/session10MVC/MvcPokemon/obj/Debug/netcoreapp3.1/Razor/Views/Pokemon/Index.cshtml.g.cs
