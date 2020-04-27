@@ -16,5 +16,7 @@ namespace MvcPokemon.Models
         [Display(Name = "Evolves From")]
         [DataType(DataType.Text)]
         public string EvolvesFrom { get; set; }
+
+        public string Rating {get; set;}
     }
 }

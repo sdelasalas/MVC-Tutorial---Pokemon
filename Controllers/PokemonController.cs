@@ -73,7 +73,7 @@ namespace MvcPokemon.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Type,HP,EvolvesFrom")] Pokemon pokemon)
+        public async Task<IActionResult> Create([Bind("Id,Name,Type,HP,EvolvesFrom,Rating")] Pokemon pokemon)
         {
             if (ModelState.IsValid)
             {
@@ -105,7 +105,7 @@ namespace MvcPokemon.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Type,HP,EvolvesFrom")] Pokemon pokemon)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Type,HP,EvolvesFrom,Rating")] Pokemon pokemon)
         {
             if (id != pokemon.Id)
             {

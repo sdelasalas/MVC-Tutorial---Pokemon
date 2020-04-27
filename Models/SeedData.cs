@@ -25,7 +25,8 @@ namespace MvcPokemon.Models
                             Name = "Bulbasaur",
                             Type = "Grass",
                             HP = Convert.ToInt32("200"),
-                            EvolvesFrom = "A rock"
+                            EvolvesFrom = "A rock",
+                            Rating = "10"
                         },
 
                         new Pokemon
@@ -33,7 +34,8 @@ namespace MvcPokemon.Models
                             Name = "Machomp",
                             Type = "Fighting",
                             HP = Convert.ToInt32("100"),
-                            EvolvesFrom = "Machoke"  
+                            EvolvesFrom = "Machoke",
+                            Rating = "5"  
                         }
                     );
                     context.SaveChanges();
