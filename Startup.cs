@@ -29,14 +29,7 @@ namespace MvcPokemon
         {
             services.AddControllersWithViews();
             services.AddDbContext<MvcPokemonContext>(options =>
-            {
-                var connectionString = Configuration.GetConnectionString("MvcPokemonContext");
-
-                if (Environment.IsDevelopment())
-                {
-                    options.UseSqlite(connectionString);
-                }
-            });
+                options.UseSqlite(Configuration.GetConnectionString("MvcPokemonContext")));
             
         }
 
