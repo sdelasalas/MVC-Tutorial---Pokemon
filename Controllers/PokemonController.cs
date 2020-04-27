@@ -23,19 +23,19 @@ namespace MvcPokemon.Controllers
         public async Task<IActionResult> Index(string pokemonType, string searchString)
         {
             //use LINQ to get a list of genres.
-            IQueryable<string> genreQuery = from p in _context.Pokemon
+            IQueryable<string> typeQuery = from p in _context.Pokemon
                                             orderby p.Type
                                             select p.Type;
             
             var pokemon = from p in _context.Pokemon 
                         select p;
             
-            if (!String.IsNullOrEmpty(searchString))
+            if (!string.IsNullOrEmpty(searchString))
             {
                 pokemon = pokemon.Where(s => s.Name.Contains(searchString));
             }
 
-            var PokemonTypeVM = new PokemonTypeViewModel
+            var pokemonTypeVM = new PokemonTypeViewModel
             {
                 Types = new SelectList(await typeQuery.Distinct().ToListAsync()),
                 Pokemons = await pokemon.ToListAsync()
