@@ -22,12 +22,12 @@ namespace MvcPokemon.Models
 
         [Display(Name = "Evolves From")]
         [DataType(DataType.Text)]
-        
         [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
         [Required]
         [StringLength(30)]
         public string EvolvesFrom { get; set; }
-
-        public string Rating {get; set;}
+        
+        [Range(1, 1000)]
+        public int Rating {get; set;}
     }
 }

@@ -26,7 +26,7 @@ namespace MvcPokemon.Models
                             Type = "Grass",
                             HP = Convert.ToInt32("200"),
                             EvolvesFrom = "A rock",
-                            Rating = "10"
+                            Rating = Convert.ToInt32("10")
                         },
 
                         new Pokemon
@@ -35,7 +35,7 @@ namespace MvcPokemon.Models
                             Type = "Fighting",
                             HP = Convert.ToInt32("100"),
                             EvolvesFrom = "Machoke",
-                            Rating = "5"  
+                            Rating = Convert.ToInt32("10") 
                         }
                     );
                     context.SaveChanges();
