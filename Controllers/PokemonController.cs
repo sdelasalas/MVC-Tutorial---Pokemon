@@ -20,9 +20,16 @@ namespace MvcPokemon.Controllers
         }
 
         // GET: Pokemon
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Pokemon.ToListAsync());
+            var pokemon = from p in _context.Pokemon 
+                        select p;
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                pokemon = pokemon.Where(s => s.Type.Contains(searchString));
+            }
+
+            return View(await pokemon.ToListAsync());
         }
 
         // GET: Pokemon/Details/5
